@@ -10,8 +10,10 @@ DateTime oraEvento = DateTime.Parse(Console.ReadLine());
 Console.Write("Inserisci la capienza massima: ");
 int maxCapienza = int.Parse(Console.ReadLine());
 
-Evento concerto = new Evento (nomeEvento, oraEvento, maxCapienza);
-
 Console.Write("Quanti posti vuoi prenotare? ");
-int postiPrenotati = int.Parse(Console.ReadLine());
+int postiDaPrenotare = int.Parse(Console.ReadLine());
+
+Evento concerto = new Evento (nomeEvento, oraEvento, maxCapienza, postiDaPrenotare);
+
+
 
