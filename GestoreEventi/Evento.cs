@@ -8,5 +8,15 @@ namespace GestoreEventi
 {
     internal class Evento
     {
+        // ATTRIBUTI
+        private string titolo;
+        private string dataEvento;
+        private int capienzaEvento;
+        private int postiPrenotati;
+
+
+
+
+
     }
 }
