@@ -29,6 +29,10 @@ namespace GestoreEventi
         
         }
 
+        public Evento()
+        {
+        }
+
         // GETTERS
         public string GetTitolo()
         {

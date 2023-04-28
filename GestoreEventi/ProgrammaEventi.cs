@@ -13,12 +13,16 @@ namespace GestoreEventi
         private List<Evento> eventi;
 
         // COSTRUTTORE
-        public EventiProgramma(string titolo, List<Evento> eventi)
+        public ProgrammaEventi(string titolo, List<Evento> eventi)
         {
             this.titolo = titolo;
             eventi = new List<Evento>();
 
-        } 
+        }
+
+        public ProgrammaEventi(string? nomeProgramma)
+        {
+        }
 
         // GETTERS
         public string GetTitoloProgramma()
