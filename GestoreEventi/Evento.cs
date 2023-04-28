@@ -115,6 +115,16 @@ namespace GestoreEventi
         }
 
         // OVERRIDE
+        public override string ToString()
+        {
+            string restituzioneStringa = "";
+
+            restituzioneStringa += this.dataEvento.ToString("dd,MM,yyyy");
+            restituzioneStringa += " - ";
+            restituzioneStringa += this.titolo + "\n";
+
+            return restituzioneStringa;
+        }
 
 
 
